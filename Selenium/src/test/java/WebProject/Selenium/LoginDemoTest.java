@@ -1,8 +1,12 @@
 package WebProject.Selenium;
 
+import java.io.File;
 import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -27,7 +31,7 @@ public WebDriver driver;
 	}
 	
 	@Test(dataProvider="getData")
-	public void login(String username, String password) throws InterruptedException
+	public void login(String username, String password) throws Exception
 	{
 		driver.get(prop.getProperty("newToursUrl"));
 		SoftAssert sa = new SoftAssert();
@@ -62,6 +66,10 @@ public WebDriver driver;
 			//2.	Post login , a message "Welcome <manager id> " is shown. The client wants you to validate this
 			sa.assertTrue(hp.getManagerIDText().isDisplayed());
 			System.out.println(hp.getManagerIDText().getText());
+			//Code to take screenshot
+			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			//Code to save screenshot at desired location
+			FileUtils.copyFile(srcFile, new File(""));
 			
 		}
 		else

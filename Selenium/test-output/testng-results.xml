@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-28T21:30:20 IST" name="Default suite" finished-at="2021-05-28T21:30:58 IST" duration-ms="37800">
+    <groups>
+    </groups>
+    <test started-at="2021-05-28T21:30:20 IST" name="Default test" finished-at="2021-05-28T21:30:58 IST" duration-ms="37800">
+      <class name="WebProject.Selenium.LoginDemoTest">
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:WebProject.Selenium.LoginDemoTest@1e802ef9]" started-at="2021-05-28T21:30:20 IST" name="initializePage" finished-at="2021-05-28T21:30:27 IST" duration-ms="7190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:WebProject.Selenium.LoginDemoTest@1e802ef9]" started-at="2021-05-28T21:30:27 IST" name="login" data-provider="getData" finished-at="2021-05-28T21:30:47 IST" duration-ms="20159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr328588]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rEvUmyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:WebProject.Selenium.LoginDemoTest@1e802ef9]" started-at="2021-05-28T21:30:47 IST" name="login" data-provider="getData" finished-at="2021-05-28T21:30:51 IST" duration-ms="3075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dr.tim56]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rEvUmyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:WebProject.Selenium.LoginDemoTest@1e802ef9]" started-at="2021-05-28T21:30:51 IST" name="login" data-provider="getData" finished-at="2021-05-28T21:30:53 IST" duration-ms="2611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr328588]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dr tim]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:WebProject.Selenium.LoginDemoTest@1e802ef9]" started-at="2021-05-28T21:30:53 IST" name="login" data-provider="getData" finished-at="2021-05-28T21:30:56 IST" duration-ms="2877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebProject.Selenium.LoginDemoTest@1e802ef9]" started-at="2021-05-28T21:30:56 IST" name="tearDown" finished-at="2021-05-28T21:30:58 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebProject.Selenium.LoginDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
